@@ -49,7 +49,17 @@ const missionReports = [
   }
 ];
 
-const logos = ['NOVA COMMERCE', 'VECTOR LABS', 'AURORA SYSTEMS', 'KINETIC BRANDS', 'ORBITAL HEALTH'];
+const logos = [
+  'Cuts Clothing',
+  'Italic',
+  'Andie Swim',
+  'Richer Poorer',
+  'Teachme.to',
+  'Portal Sleep',
+  'Margin Department',
+  'Eyecandys',
+  'Pave Motors'
+];
 
 const redactText = (text: string) => {
   return text.split(/(\[REDACTED\])/g).map((chunk, index) => {
@@ -80,12 +90,11 @@ export default function Home() {
           <nav className="flex flex-wrap items-center justify-between gap-4">
             <p className="font-mono text-sm tracking-[0.2em] text-zinc-200">DELTA V STUDIOS</p>
             <div className="flex flex-wrap gap-4 font-mono text-xs tracking-[0.15em] text-zinc-400">
-              <a href="#hero" className="transition hover:text-alert">OVERVIEW</a>
-              <a href="#logos" className="transition hover:text-alert">LOGOS</a>
+              <a href="#hero" className="transition hover:text-alert">HOME</a>
+              <a href="#modes" className="transition hover:text-alert">SERVICES</a>
+              <a href="#reports" className="transition hover:text-alert">CASE STUDYS</a>
               <a href="#about" className="transition hover:text-alert">ABOUT</a>
-              <a href="#modes" className="transition hover:text-alert">MODES</a>
-              <a href="#reports" className="transition hover:text-alert">REPORTS</a>
-              <a href="#briefing" className="transition hover:text-alert">BRIEFING</a>
+              <a href="#briefing" className="transition hover:text-alert">CONTACT</a>
             </div>
           </nav>
         </header>

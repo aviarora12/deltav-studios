@@ -81,6 +81,7 @@ export default function Home() {
             <p className="font-mono text-sm tracking-[0.2em] text-zinc-200">DELTA V STUDIOS</p>
             <div className="flex flex-wrap gap-4 font-mono text-xs tracking-[0.15em] text-zinc-400">
               <a href="#hero" className="transition hover:text-alert">OVERVIEW</a>
+              <a href="#logos" className="transition hover:text-alert">LOGOS</a>
               <a href="#about" className="transition hover:text-alert">ABOUT</a>
               <a href="#modes" className="transition hover:text-alert">MODES</a>
               <a href="#reports" className="transition hover:text-alert">REPORTS</a>
@@ -103,7 +104,7 @@ export default function Home() {
           </button>
         </section>
 
-        <section className="border border-stealth bg-black/30 py-4">
+        <section id="logos" className="border border-stealth bg-black/30 py-4">
           <p className="px-6 pb-3 font-mono text-xs tracking-[0.2em] text-alert">ALLIED OPERATORS</p>
           <div className="logo-marquee overflow-hidden border-y border-stealth py-4">
             <div className="logo-track flex w-max items-center gap-10 px-6 font-mono text-sm tracking-[0.22em] text-zinc-400">
